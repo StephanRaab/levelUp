@@ -13,3 +13,13 @@ fun wordCount(input: String): Map<String, Int> {
 }
 
 wordCount("Xyz_Chuchu_Chuchu_Xyz_Ferdie")
+
+
+///official solution
+fun wordCount(input: String): Map<String, Int> {
+    var counts = mutableMapOf<String, Int>()
+    for (part in input.split("_")) {
+      counts[part] = (counts[part] ?: 0) + 1
+    }
+    return counts
+  }
