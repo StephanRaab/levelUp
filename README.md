@@ -12,13 +12,13 @@
 [x] 8. Practice with loops and algorithms
 [x] 9. Functions
 [x] 10. Errors and debugging
-[x] 11. Conditional expressions and Statementsv
-[x] 12. Conditional expressions and Statementsv
-[x] 13. Conditional expressions and Statementsv
-[x] 14. Conditional expressions and Statementsv
-[x] 15. Conditional expressions and Statementsv
-[x] 16. Conditional expressions and Statementsv
-[x] 17. Conditional expressions and Statementsv
+[x] 11. More about functions
+[x] 12. Practice with functions
+[x] 13. Functions and algorithms
+[x] 14. Strings
+[x] 15. Algorithms and strings
+[x] 16. null
+[] 17. Practice with strings
 [x] 18. Conditional expressions and Statementsv
 [x] 19. Conditional expressions and Statementsv
 [x] 20. Conditional expressions and Statementsv
