@@ -19,6 +19,6 @@
 [x] 15. Algorithms and strings
 [x] 16. null
 [] 17. Practice with strings
-[x] 18. Conditional expressions and Statementsv
-[x] 19. Conditional expressions and Statementsv
-[x] 20. Conditional expressions and Statementsv
+[] 18. Multidimensional arrays
+[] 19. Imports and Libraries
+[x] 20. Lists and Type parameters
