@@ -2,7 +2,7 @@
 
 ## Increase CS knowledge with Kotlin practice and homework on [learncs]](www.learncs.online)
 
-[x] 0. Hello world
+[ x ] 0. Hello world
 
 [x] 1. Variables and types
 
@@ -38,7 +38,7 @@
 
 [] 17. Practice with strings
 
-[] 18. Multidimensional arrays
+[ ] 18. Multidimensional arrays
 
 [] 19. Imports and Libraries
 
