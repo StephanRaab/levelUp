@@ -1,6 +1,6 @@
-///Given a String containing words separated by the "_" character, write a method wordCount 
-///that returns a Map<String, Int> containing the number of times that each part appears in the String.
-///So, for example, given the String "Xyz_Chuchu_Chuchu_Xyz_Ferdie", you would return a map with three mappings: "Xyz" to 2, "Chuchu" to 2, and "Ferdie" to 1.
+// Given a String containing words separated by the "_" character, write a method wordCount 
+// that returns a Map<String, Int> containing the number of times that each part appears in the String.
+// So, for example, given the String "Xyz_Chuchu_Chuchu_Xyz_Ferdie", you would return a map with three mappings: "Xyz" to 2, "Chuchu" to 2, and "Ferdie" to 1.
 fun wordCount(input: String): Map<String, Int> {
     var map = mutableMap<String,Int>
     var words = mutableListOf<String>()
@@ -15,7 +15,7 @@ fun wordCount(input: String): Map<String, Int> {
 wordCount("Xyz_Chuchu_Chuchu_Xyz_Ferdie")
 
 
-///official solution
+// official solution
 fun wordCount(input: String): Map<String, Int> {
     var counts = mutableMapOf<String, Int>()
     for (part in input.split("_")) {
