@@ -4,18 +4,20 @@ fun rotateRight(input: String, rotate: Int) : String {
 // You can convert an array of characters characters back into a String like this: String(characters).
 // You can also solve this problem quite elegantly using substring.
 
- var str2Arr = input.toCharArray();
- var output = ""
+fun rotateRight(input: String?, rotation: Int): String? {
+  if (input == null) {
+    return null
+  }
+  
+  var outputArray = CharArray(input.length)
+  
+  for (position in input.indices) {
+    var newPosition = (position + rotation) % input.length
+    outputArray[newPosition] = input[position]
+  }
 
- for (character in str2Arr.indices) {
-     var position = character
-
-     position = (position + rotate) % input.length
-     output += input[position]
- }
-
- return output
-} 
+  return String(outputArray)
+}
 
 // Testing rotateRight(input: String = "8 circle", rotate: Int = 1) failed:
 // Solution returned: "e8 circl"
