@@ -19,7 +19,7 @@
 - [x] 14. Strings
 - [x] 15. Algorithms and strings
 - [x] 16. null
-- [ ] 17. Practice with strings
+- [x] 17. Practice with strings
 - [ ] 18. Multidimensional arrays
 - [ ] 19. Imports and Libraries
 - [x] 20. Lists and Type parameters
