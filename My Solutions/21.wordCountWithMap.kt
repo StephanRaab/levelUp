@@ -21,5 +21,6 @@ fun wordCount(input: String): Map<String, Int> {
     for (part in input.split("_")) {
       counts[part] = (counts[part] ?: 0) + 1
     }
+    
     return counts
-  }
+}
