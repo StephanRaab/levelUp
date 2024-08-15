@@ -49,11 +49,30 @@ fun hasDuplicateWords(input: String?): Boolean {
     var list = mutableListOf<String>()
     for (part in input.split(" ")) {
         var word = part.lowercase()
-        
+
         if (list.contains(word)) {
             return true
         } else {
             list += word
+        }
+    }
+
+    return false
+}
+
+// map solution
+
+fun hasDuplicateWords(input: String?): Boolean {
+    require(input != null)
+
+    var map = mutableMapOf<String, Boolean>()
+    for (part in input.split(" ")) {
+        var word = part.lowercase()
+
+        if (map[word] != null) {
+            return true
+        } else {
+            map[word] = true
         }
     }
 
