@@ -40,3 +40,22 @@ fun hasDuplicateWords(input: String?): Boolean {
 
     return false
 }
+
+// list solution
+
+fun hasDuplicateWords(input: String?): Boolean {
+    require(input != null)
+
+    var list = mutableListOf<String>()
+    for (part in input.split(" ")) {
+        var word = part.lowercase()
+        
+        if (list.contains(word)) {
+            return true
+        } else {
+            list += word
+        }
+    }
+
+    return false
+}
